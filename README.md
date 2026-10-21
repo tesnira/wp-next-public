@@ -44,9 +44,9 @@ wp-next sync --url=https://your-wp-site.com --revalidate-url=http://localhost:30
 
 | 包 | 说明 | 文档 |
 |----|------|------|
-| [`@wp-next-public/cli`](./packages/cli/) | 命令行工具（`wp-next`） | [README](./packages/cli/README.md) · [文档](https://biancaplus.github.io/wp-next-public/cli/) · [npm](https://www.npmjs.com/package/@wp-next-public/cli) |
-| [`@wp-next-public/core`](./packages/core/) | WP REST/HMAC 客户端、类型、缓存 | [README](./packages/core/README.md) · [文档](https://biancaplus.github.io/wp-next-public/config/) · [npm](https://www.npmjs.com/package/@wp-next-public/core) |
-| [`@wp-next-public/react`](./packages/react/) | `ContentRenderer` + SEO 工具 | [README](./packages/react/README.md) · [文档](https://biancaplus.github.io/wp-next-public/react/) · [npm](https://www.npmjs.com/package/@wp-next-public/react) |
+| [`@wp-next-public/cli`](./packages/cli/) | 命令行工具（`wp-next`） | [README](./packages/cli/README.md) · [文档](https://tesnira.github.io/wp-next-public/cli/) · [npm](https://www.npmjs.com/package/@wp-next-public/cli) |
+| [`@wp-next-public/core`](./packages/core/) | WP REST/HMAC 客户端、类型、缓存 | [README](./packages/core/README.md) · [文档](https://tesnira.github.io/wp-next-public/config/) · [npm](https://www.npmjs.com/package/@wp-next-public/core) |
+| [`@wp-next-public/react`](./packages/react/) | `ContentRenderer` + SEO 工具 | [README](./packages/react/README.md) · [文档](https://tesnira.github.io/wp-next-public/react/) · [npm](https://www.npmjs.com/package/@wp-next-public/react) |
 
 ### ContentRenderer 示例
 
@@ -103,7 +103,7 @@ wp-next-public/
 └── .github/workflows/ # CI + GitHub Pages
 ```
 
-**在线文档**（中 / En）：https://biancaplus.github.io/wp-next-public/
+**在线文档**（中 / En）：https://tesnira.github.io/wp-next-public/
 
 - 英文默认：`/guide/`
 - 中文：`/zh/guide/`
@@ -113,7 +113,7 @@ wp-next-public/
 ## 本地开发
 
 ```bash
-git clone git@github.com:biancaplus/wp-next-public.git
+git clone git@github.com:tesnira/wp-next-public.git
 cd wp-next-public
 corepack enable
 corepack prepare pnpm@11.7.0 --activate
@@ -141,7 +141,7 @@ corepack pnpm release
 
 1. **Build and deployment** → Source 选 **GitHub Actions**
 2. 等待 `Deploy Docs` workflow 跑完
-3. 访问 https://biancaplus.github.io/wp-next-public/
+3. 访问 https://tesnira.github.io/wp-next-public/
 
 本地预览：`corepack pnpm docs:dev`（开发服务器路径含 `/wp-next-public/` 前缀）
 

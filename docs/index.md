@@ -11,7 +11,7 @@ hero:
       link: /guide/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/biancaplus/wp-next-public
+      link: https://github.com/tesnira/wp-next-public
 
 features:
   - icon: 🚀

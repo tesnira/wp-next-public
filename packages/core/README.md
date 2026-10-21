@@ -46,4 +46,4 @@ const wp = createCachedWpClient({
 - `createPostMeta`、`extractSeoFields` — SEO 字段提取
 - 类型：`WPPost`、`WPPage`、`WPTerm` 等
 
-更多说明见 [在线文档](https://biancaplus.github.io/wp-next-public/config/) 与 [npm @wp-next-public/core](https://www.npmjs.com/package/@wp-next-public/core)。
+更多说明见 [在线文档](https://tesnira.github.io/wp-next-public/config/) 与 [npm @wp-next-public/core](https://www.npmjs.com/package/@wp-next-public/core)。

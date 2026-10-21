@@ -62,10 +62,10 @@ Install from npm: `@wp-next-public/cli`, `@wp-next-public/react`, `@wp-next-publ
 
 ## Contribute
 
-Source code and docs live in [wp-next-public](https://github.com/biancaplus/wp-next-public).
+Source code and docs live in [wp-next-public](https://github.com/tesnira/wp-next-public).
 
 ```bash
-git clone https://github.com/biancaplus/wp-next-public.git
+git clone https://github.com/tesnira/wp-next-public.git
 cd wp-next-public
 corepack enable && corepack prepare pnpm@11.7.0 --activate
 pnpm install && pnpm build

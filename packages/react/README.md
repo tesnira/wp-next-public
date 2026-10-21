@@ -53,4 +53,4 @@ const galleryProcessor: ContentProcessor = {
 import { createPostMeta, ArticleJsonLd, renderSitemapXml } from '@wp-next-public/react';
 ```
 
-更多说明见 [在线文档](https://biancaplus.github.io/wp-next-public/react/) 与 [npm @wp-next-public/react](https://www.npmjs.com/package/@wp-next-public/react)。
+更多说明见 [在线文档](https://tesnira.github.io/wp-next-public/react/) 与 [npm @wp-next-public/react](https://www.npmjs.com/package/@wp-next-public/react)。

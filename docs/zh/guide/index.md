@@ -62,10 +62,10 @@ npx @wp-next-public/cli sync --url https://your-wp-site.com
 
 ## 参与贡献
 
-源码与文档：[wp-next-public](https://github.com/biancaplus/wp-next-public)
+源码与文档：[wp-next-public](https://github.com/tesnira/wp-next-public)
 
 ```bash
-git clone https://github.com/biancaplus/wp-next-public.git
+git clone https://github.com/tesnira/wp-next-public.git
 cd wp-next-public
 corepack enable && corepack prepare pnpm@11.7.0 --activate
 pnpm install && pnpm build

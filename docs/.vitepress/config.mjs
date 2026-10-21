@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress';
 
-// GitHub Pages project site: https://<user>.github.io/wp-next-public/
+// GitHub Pages 项目站：https://tesnira.github.io/wp-next-public/
 const base = process.env.VP_BASE || '/wp-next-public/';
 
 const socialLinks = [
-  { icon: 'github', link: 'https://github.com/biancaplus/wp-next-public' },
+  { icon: 'github', link: 'https://github.com/tesnira/wp-next-public' },
 ];
 
 const shared = {
